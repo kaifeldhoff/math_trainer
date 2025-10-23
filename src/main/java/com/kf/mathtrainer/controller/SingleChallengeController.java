@@ -7,7 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/single_challenge")
+@RequestMapping("/api/single_challenge")
 public class SingleChallengeController {
 
     private final SingleChallengeService singleChallengeService;
